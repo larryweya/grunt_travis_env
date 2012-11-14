@@ -3,7 +3,7 @@ python:
   - "2.7"
 before_install:
   - sudo npm install grunt -g
-  - sudo install coffee-grunt grunt-jasmine-runner -g
+  - sudo npm install coffee-grunt grunt-jasmine-runner -g
 install:
 #  - python manage.py migrate --noinput
 script:
