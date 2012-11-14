@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+before_install:
+  - sudo npm install grunt -g
+  - npm install
+install:
+#  - python manage.py migrate --noinput
+script:
+  - python -c "print \"Hello\""
+  - grunt jasmine 
